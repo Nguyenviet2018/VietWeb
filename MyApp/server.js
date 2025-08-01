@@ -49,4 +49,5 @@ io.emit('chat message', `🔔 Người dùng từ IP ${clientIP} -> ${datetime}.
 const PORT = 3000;
 server.listen(PORT, () => {
     console.log(` Server đang chạy tại http://localhost:${PORT}`);
+    console.log(` Chương trình server`);
 });
